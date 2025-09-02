@@ -1,11 +1,28 @@
-# Sample Snack app
+# RobotOffice
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+**React Native** minigame app where you assemble robots from individual parts, battle opponents, and earn in-game currency to upgrade or expand your collection.
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+- Collect robot parts—each with unique **health**, **weight**, and **abilities** like flamethrowers, blades, or health regeneration. Swap, fix, and combine parts to build custom robots.
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+- Engage in strategic turn based battles, remember that your robot parts influence your speed and energy ammount, so choose your parts carefully.
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+- **Store**: Use earned money to purchase new parts.  
+- **Office**: Drag parts onto a worktable to:
+  - Build new robots  
+  - Repair damaged components
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+---
+
+# Requisites
+- Node.js (LTS recommended)
+- React Native development environment set up (Android Studio and/or Xcode for iOS)
+- expo CLI or react-native CLI, depending on your setup
+
+# For Expo-managed workflow
+expo start
+
+# Using React Native CLI:
+npx react-native run-android
+# or
+npx react-native run-ios
+
